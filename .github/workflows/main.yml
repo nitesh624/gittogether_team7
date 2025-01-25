@@ -17,9 +17,6 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Build project
-      run: npm run build
-
     - name: Deploy to Netlify
       uses: nwtgck/actions-netlify@v1.2.3
       with:
