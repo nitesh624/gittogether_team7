@@ -9,3 +9,5 @@ The workflow is triggered on:
 - Pull request targeting the `main` branch
 
 ### Jobs
+
+- **build**: Runs on `ubuntu-latest` and checks out the repository using `actions/checkout@v2`.
